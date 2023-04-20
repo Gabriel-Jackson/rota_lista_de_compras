@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Teste</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+
+</head>
+
+<body>
+
+	<div>
+		<select name="produto" id="produto"> 
+		</select>
+
+		<button id="addLista">Adicionar a Lista</button>
+		<button id="calculaRota">Calcular Rota</button>
+
+		<ul id="lista-compras"></ul>
+
+		<h3>Observações:</h3>
+
+		<ul>
+			<li> O sistema não esta muito otimizado, então caso a lista seja grande podem ocorrer crashes</li>
+			<li> A pratileira é contada do lado direito dos quadrados pretos</li>
+			<li> Os retângulos azuis são os caixas</li>
+			<li>Recarregar a página para inserir nova lista</li>
+		</ul>
+	</div>
+	<script src="Produto.js"></script>
+	<script src="Mercado.js"></script>
+	<script src="ListaDeCompras.js"></script>
+	<script src="Navigator.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
